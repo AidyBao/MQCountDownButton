@@ -12,6 +12,7 @@
 		7ABB3FB11FDE1B7100F0CEA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ABB3FAF1FDE1B7100F0CEA1 /* Main.storyboard */; };
 		7ABB3FB31FDE1B7200F0CEA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ABB3FB21FDE1B7200F0CEA1 /* Assets.xcassets */; };
 		7ABB3FB61FDE1B7200F0CEA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ABB3FB41FDE1B7200F0CEA1 /* LaunchScreen.storyboard */; };
+		7ABB3FBF1FDE1ED200F0CEA1 /* ZXCountDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABB3FBE1FDE1ED200F0CEA1 /* ZXCountDownButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7ABB3FB21FDE1B7200F0CEA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ABB3FB51FDE1B7200F0CEA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7ABB3FB71FDE1B7200F0CEA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ABB3FBE1FDE1ED200F0CEA1 /* ZXCountDownButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXCountDownButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +56,21 @@
 		7ABB3FAA1FDE1B7100F0CEA1 /* MQCountDownButton */ = {
 			isa = PBXGroup;
 			children = (
+				7ABB3FBD1FDE1ED200F0CEA1 /* MQCountDownButton */,
 				7ABB3FAB1FDE1B7100F0CEA1 /* AppDelegate.swift */,
 				7ABB3FAD1FDE1B7100F0CEA1 /* ViewController.swift */,
 				7ABB3FAF1FDE1B7100F0CEA1 /* Main.storyboard */,
 				7ABB3FB21FDE1B7200F0CEA1 /* Assets.xcassets */,
 				7ABB3FB41FDE1B7200F0CEA1 /* LaunchScreen.storyboard */,
 				7ABB3FB71FDE1B7200F0CEA1 /* Info.plist */,
+			);
+			path = MQCountDownButton;
+			sourceTree = "<group>";
+		};
+		7ABB3FBD1FDE1ED200F0CEA1 /* MQCountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				7ABB3FBE1FDE1ED200F0CEA1 /* ZXCountDownButton.swift */,
 			);
 			path = MQCountDownButton;
 			sourceTree = "<group>";
@@ -136,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ABB3FBF1FDE1ED200F0CEA1 /* ZXCountDownButton.swift in Sources */,
 				7ABB3FAE1FDE1B7100F0CEA1 /* ViewController.swift in Sources */,
 				7ABB3FAC1FDE1B7100F0CEA1 /* AppDelegate.swift in Sources */,
 			);

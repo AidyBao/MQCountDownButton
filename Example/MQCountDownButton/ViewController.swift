@@ -9,10 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var getCodeBtn: MQCountDownButton!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.getCodeBtn.maxCount = 60
+        self.getCodeBtn.start()
     }
 
     override func didReceiveMemoryWarning() {
