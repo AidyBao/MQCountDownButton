@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MQCountDownButton'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'MQCountDownButton For swift CountDownButton'
 
   s.description      = <<-DESC
