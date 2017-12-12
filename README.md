@@ -1,8 +1,9 @@
 # MQCountDownButton
 
-s.source = { :git => "https://github.com/AidyBao/MQCountDownButton.git", :commit => "68defea" }
-s.source = { :git => "https://github.com/AidyBao/MQCountDownButton.git", :tag => 1.0.0 }
-s.source = { :git => "https://github.com/AidyBao/MQCountDownButton.git", :tag => s.version }
+[![CI Status](http://img.shields.io/travis/AidyBao/MQCountDownButton.svg?style=flat)](https://travis-ci.org/AidyBao/MQCountDownButton)
+[![Version](https://img.shields.io/cocoapods/v/MQCountDownButton.svg?style=flat)](http://cocoapods.org/pods/MQCountDownButton)
+[![License](https://img.shields.io/cocoapods/l/MQCountDownButton.svg?style=flat)](http://cocoapods.org/pods/MQCountDownButton)
+[![Platform](https://img.shields.io/cocoapods/p/MQCountDownButton.svg?style=flat)](http://cocoapods.org/pods/MQCountDownButton)
 
 ## Example
 
